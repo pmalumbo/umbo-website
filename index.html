@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malumbo - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Dosis:wght@200;400&family=DynaPuff&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Fredoka+One&family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,700;1,400&family=Rock+Salt&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/118037cc3c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/portfolio/assets0/css/style.css">
+    </head>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+     <a href="#home" class="Home"> <span class="logo">Malumbo.</span></a>
+      <ul id="sidemenu">
+        <li>
+          <a href="#header" class="home">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="about">About</a>
+        </li>
+        <li>
+          <a href="#services" class="services">Services</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#contacts" class="contact">Contact</a>
+        </li>
+        <i class="fas fa-times" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars" onclick="openmenu()"></i>
+      
+    </nav>
+    <div class="header-text">
+      
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span>Malumbo</span><br> Polela from<br> Zambia</h1>
+      
+    </div>
+</div>
+
+<!-- about info -->
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-mal-1">
+        <img src="/portfolio/assets0/images/image-1.jpg" alt="">
+      </div>
+      <div class="about-mal-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am a hardworking, focus driven and disciplined individual,
+           who developed a passion for computer and mobile problem solving 
+           since my later years in secondary school. Being that I was born 
+           during the era of technological advancement, I feel that success 
+           is through developing and progressing with technology which led 
+           me to study computer engineering and with my love for playing rugby,
+            I have learnt to be patient and disciplined in all aspects in life.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+              <li><span>Web Developerment</span><br>Web App Developerment</li>
+              <li><span>App Development</span><br>Building Android/IOS Apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Current</span><br>Web Design</li>
+              <li><span>2020 - Current</span><br>Assistanting Purchasing <br>and Supplies officer - KDHO</li>
+              <li><span>2018 - 2020</span><br>Acting Registry Clerk - KDHO</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2014</span><br>Diploma in Computer Engineering</li>
+              <li><span>2013</span><br>Certificate in Computer Engineering</li>
+              <li><span>2011</span><br>School Certificate</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--services-->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>I develop websites and pages for companies and stores to reflect 
+          brands and information and ensure a user friendly interface.
+        </p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>I build responsive interfaces for mobile, web pages and software.</p>
+           <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>I am developiing a 2D game using LOVE in lua.</p>
+           <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="/portfolio/assets0/images/image-3.jpg" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app will connect you to the talented people around the world.
+            Download it from play store. Coming Soon.
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="/portfolio/assets0/images/image-2.jpg" alt="">
+        <div class="layer first">
+          <h3>Music App</h3>
+          <p>The app will connect you to the talented people around the world.
+            Download it from play store. Coming Soon.
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="/portfolio/assets0/images/image-6.jpeg" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app will connect you to the talented people around the world.
+            Download it from play store. Coming Soon.
+          </p>
+          <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+
+<!--   contact -->
+
+<div id="contacts">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>pmalumbo@gmail.com</p>
+        <p><i class="fas fa-phone-square-alt"></i>+260 962 58 10 26</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/pmalumbo"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.youtube.com/channel/UCTrd2SCQV1tuhrVizK_B5Sg"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://instagram.com/heavy__papa?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/malumbo-polela-5890519b"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="/portfolio/assets0/Curriculum Vitae Malumbo Polela.pdf" download class="btn btn-2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn-2">Submit</button>
+        </form>
+        <span><div id="msg"></div></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright &copy; reserved <i class="fas fa-heart"></i> </p>
+  </div>
+</div>
+
+
+<!--javascript link-->
+  <script src="/portfolio/assets0/js/script.js"></script>
+  
+
+</body>
+</html>
